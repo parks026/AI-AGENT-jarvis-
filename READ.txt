@@ -1,0 +1,21 @@
+This script creates a simple desktop AI assistant with a graphical interface using PySimpleGUI and LangChain (OpenAI GPT).
+
+✅ Two tools are built in:
+
+A calculator for basic addition.
+
+A greeting tool to say hello.
+
+🧠 The assistant uses LangChain's ReAct agent framework to choose between tools or just reply naturally.
+
+💬 The interface includes:
+
+A multiline chat display for conversation history.
+
+An input field for user messages.
+
+Send and Quit buttons, with Enter bound to Send.
+
+⚙️ A background thread handles the AI responses to prevent the GUI from freezing.
+
+🔐 The OpenAI API key is loaded from a .env file.
